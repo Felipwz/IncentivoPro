@@ -66,7 +66,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 Este projeto é de uso pessoal para aprendizado e pode ser modificado e utilizado livremente.
 
 ## 📌 Contato
-Luiz Felipe - [Seu LinkedIn ou E-mail]
+Luiz Felipe - luizfelipesiqueira83@gmail.com
 
 
 

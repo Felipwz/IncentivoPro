@@ -9,6 +9,8 @@ O objetivo principal do **IncentivoPro** é fornecer uma plataforma prática e i
 ## 🔨 Funcionalidades Planejadas
 
 - **Cadastro de alunos.**
+- **Cadastro de professores.**
+- **Cadastro de administradores.**
 - **Atribuição de pontos (ProCoins)** aos alunos.
 - **Registro de prêmios** disponíveis para troca.
 - **Troca de pontos** por prêmios.
@@ -21,38 +23,6 @@ O objetivo principal do **IncentivoPro** é fornecer uma plataforma prática e i
 - **Windows Forms:** Interface gráfica do sistema.
 - **Entity Framework Core:** ORM para facilitar o mapeamento e manipulação dos dados.
 - **PostgreSQL (Supabase):** Banco de dados utilizado para armazenar as informações.
-
-
-## 🚀 Como Executar o Projeto Localmente
-1. Clone o repositório:
-bash
-Copiar
-Editar
-git clone https://github.com/SeuUsuario/IncentivoPro.git
-cd IncentivoPro
-2. Restaure as dependências:
-bash
-Copiar
-Editar
-dotnet restore
-3. Compile o projeto:
-bash
-Copiar
-Editar
-dotnet build
-4. Execute o projeto:
-bash
-Copiar
-Editar
-dotnet run
-
-📌 Configuração do Banco de Dados
-O projeto está configurado para utilizar um banco de dados PostgreSQL hospedado na Supabase. Certifique-se de configurar sua ConnectionString adequadamente no arquivo AppDbContext.cs:
-
-csharp
-Copiar
-Editar
-optionsBuilder.UseNpgsql("Host=XXXX;Port=5432;Database=XXXX;Username=XXXX;Password=XXXX");
 
 ## 📖 Roadmap
  Versão 1.0: Cadastro de alunos, atribuição de pontos e consulta de saldo.

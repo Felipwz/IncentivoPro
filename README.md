@@ -25,9 +25,9 @@ O objetivo principal do **IncentivoPro** é fornecer uma plataforma prática e i
 - **PostgreSQL (Supabase):** Banco de dados utilizado para armazenar as informações.
 
 ## 📖 Roadmap
-- **Versão 1.0: Cadastro de alunos, atribuição de pontos e consulta de saldo.
-- **Versão 1.1: Implementação de troca de pontos por prêmios.
-- **Versão 2.0: Relatórios avançados e melhorias na interface gráfica.
+- **Versão 1.0:** Cadastro de alunos, atribuição de pontos e consulta de saldo.
+- **Versão 1.1:** Implementação de troca de pontos por prêmios.
+- **Versão 2.0:** Relatórios avançados e melhorias na interface gráfica.
 
 ## 🤝 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias ou correções. Para sugestões, por favor, abra uma issue explicando a melhoria ou sugestão.

@@ -1,34 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using IncentivoPro.Modelos;
 
 namespace IncentivoPro.Modelos.Connection
 {
+    public class AppDbContext : DbContext
+    {
+        public DbSet<Aluno> Alunos { get; set; } 
 
-
-    public class AppDbContext : DbContext {
-
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
-
-        public DbSet<Aluno> Alunos { get; set; }
-
-
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
-            modelBuilder.Entity<Aluno>().ToTable("tbl_alunos");
-            base.OnModelCreating(modelBuilder);
+            optionsBuilder.UseNpgsql("Host=postgres.wtdoiengvkbmptiqtdup.supabase.co;Port=5432;Username=postgres;Password=felipwz_0204;Database=postgres;Pooling=true;SslMode=Require;Trust Server Certificate=true;");
         }
-
-
-
     }
-
-
-
 }

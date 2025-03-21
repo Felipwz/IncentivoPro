@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\modelos\\connection\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:modelos\\connection\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Modelos\\Connection\\DbContext.cs",
+              "RelativeDocumentMoniker": "Modelos\\Connection\\DbContext.cs",
+              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Modelos\\Connection\\DbContext.cs",
+              "RelativeToolTip": "Modelos\\Connection\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:11:30.437Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

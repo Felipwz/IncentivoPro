@@ -28,12 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            btnTeste = new Button();
+            mensagem = new Label();
+            SuspendLayout();
+            // 
+            // btnTeste
+            // 
+            btnTeste.Location = new Point(348, 176);
+            btnTeste.Name = "btnTeste";
+            btnTeste.Size = new Size(75, 23);
+            btnTeste.TabIndex = 0;
+            btnTeste.Text = "Botão";
+            btnTeste.UseVisualStyleBackColor = true;
+            btnTeste.Click += btnTeste_Click;
+            // 
+            // mensagem
+            // 
+            mensagem.AutoSize = true;
+            mensagem.Location = new Point(366, 238);
+            mensagem.Name = "mensagem";
+            mensagem.Size = new Size(33, 15);
+            mensagem.TabIndex = 1;
+            mensagem.Text = "Teste\r\n";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(mensagem);
+            Controls.Add(btnTeste);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Button btnTeste;
+        private Label mensagem;
     }
 }

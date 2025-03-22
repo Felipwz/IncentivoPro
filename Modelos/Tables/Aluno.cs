@@ -4,12 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace IncentivoPro.Modelos
+namespace IncentivoPro.Modelos.Tables
 {
-   public class Aluno
+
+    [Table("tb01_alunos")]
+    public class Aluno
     {
         [Key]
+        [Column("id")]
         public int Id { get; set; }
 
         public string Nome { get; set; }

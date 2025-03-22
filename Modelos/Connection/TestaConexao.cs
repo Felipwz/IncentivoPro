@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IncentivoPro.Modelos.Connection;
+using IncentivoPro.Modelos.Tables;
 
 
 namespace IncentivoPro.Modelos.Connection
 {
-    class TestaConexao
+    public class TestaConexao
     {
-        static void Main(string[] args)
+        public void ConexaoTeste()  
         {
             using (var context = new AppDbContext())
             {
                 try
                 {
-                    // Testa a conexão tentando salvar um novo aluno
                     var novoAluno = new Aluno
                     {
                         Nome = "João Silva",
@@ -28,11 +29,11 @@ namespace IncentivoPro.Modelos.Connection
                     context.Alunos.Add(novoAluno);
                     context.SaveChanges();
 
-                    Console.WriteLine("Conexão estabelecida e dado salvo com sucesso!");
+                    MessageBox.Show("Conexão estabelecida e dado salvo com sucesso!");
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Erro ao conectar ou salvar dados: {ex.Message}");
+                    MessageBox.Show($"Erro ao conectar ou salvar dados: {ex.Message}");
                 }
             }
         }

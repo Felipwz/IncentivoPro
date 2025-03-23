@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IncentivoPro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b4f61376ffcf936b28ddba54a02faee52e76882")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13d2c6c5b7baab3670040d81534538156fb97fb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("IncentivoPro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IncentivoPro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

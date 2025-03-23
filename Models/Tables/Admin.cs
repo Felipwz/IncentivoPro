@@ -28,14 +28,14 @@ namespace IncentivoPro.Modelos.Tables
         public int Id { get; set; }
 
         [Column("login")]
-        public string Login { get; set; }
+        public string Login { get; set; } = string.Empty;
 
         [Column("senha")]
-        public string Senha { get; set; }
+        public string Senha { get; set; } = string.Empty;
 
-    
 
-    }
+
+        }
 
 
 }

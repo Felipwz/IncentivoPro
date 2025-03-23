@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using IncentivoPro.Modelos.Tables;
+using IncentivoPro.Models.Tables;
 using Microsoft.Extensions.Configuration;
 
 namespace IncentivoPro.Models.Connection
@@ -20,28 +20,7 @@ namespace IncentivoPro.Models.Connection
 
             }
 
-        //public DbSet<Aluno> Alunos { get; set; }
-
-        //private IConfiguration _configuration;
-
-        //public AppDbContext(IConfiguration configuration, DbContextOptions options) : base(options)
-        //{
-        //    _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
-        //}
-
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    var typeDataBase = _configuration["TypeDataBase"];
-        //    var connectionString = _configuration.GetConnectionString(typeDataBase);
-
-        //    if (typeDataBase == "Postgresql")
-        //    {
-
-        //        optionsBuilder.UseNpgsql(connectionString);
-
-        //    }
-
-        //}
+   
 
 
 

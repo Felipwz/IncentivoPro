@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace IncentivoPro.Modelos.Tables
+namespace IncentivoPro.Models.Tables
 {
 
     [Table("tb02_professores")]

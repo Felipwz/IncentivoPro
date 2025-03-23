@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\modelos\\validalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:modelos\\validalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\pages\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:pages\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\modelos\\connection\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:modelos\\connection\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\models\\validalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:models\\validalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\modelos\\tables\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:modelos\\tables\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\models\\tables\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:models\\tables\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\modelos\\connection\\testaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:modelos\\connection\\testaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\models\\connection\\testaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:models\\connection\\testaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\pages\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:pages\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\models\\connection\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:models\\connection\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,36 +33,36 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 11,
+          "DockedWidth": 181,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestaConexao.cs",
-              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Modelos\\Connection\\TestaConexao.cs",
-              "RelativeDocumentMoniker": "Modelos\\Connection\\TestaConexao.cs",
-              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Modelos\\Connection\\TestaConexao.cs",
-              "RelativeToolTip": "Modelos\\Connection\\TestaConexao.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwCIAAAARAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\Form1.cs",
+              "RelativeDocumentMoniker": "Pages\\Form1.cs",
+              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\Form1.cs",
+              "RelativeToolTip": "Pages\\Form1.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAywCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T23:36:38.581Z",
+              "WhenOpened": "2025-03-23T13:58:31.99Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 389,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 181,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\Form1.cs",
+              "RelativeDocumentMoniker": "Pages\\Form1.cs",
+              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Pages\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T01:27:57.516Z",
               "IsPinned": true,
@@ -67,40 +71,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Modelos\\Connection\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Modelos\\Connection\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Modelos\\Connection\\AppDbContext.cs",
-              "RelativeToolTip": "Modelos\\Connection\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Title": "ValidaLogin.cs",
+              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Models\\ValidaLogin.cs",
+              "RelativeDocumentMoniker": "Models\\ValidaLogin.cs",
+              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Models\\ValidaLogin.cs",
+              "RelativeToolTip": "Models\\ValidaLogin.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAlwBkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T02:38:35.314Z",
+              "WhenOpened": "2025-03-23T13:42:41.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestaConexao.cs",
+              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Models\\Connection\\TestaConexao.cs",
+              "RelativeDocumentMoniker": "Models\\Connection\\TestaConexao.cs",
+              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Models\\Connection\\TestaConexao.cs",
+              "RelativeToolTip": "Models\\Connection\\TestaConexao.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwCMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T13:56:40.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Models\\Connection\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\Connection\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Models\\Connection\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\Connection\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T13:52:35.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Modelos\\Tables\\Admin.cs",
-              "RelativeDocumentMoniker": "Modelos\\Tables\\Admin.cs",
-              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Modelos\\Tables\\Admin.cs",
-              "RelativeToolTip": "Modelos\\Tables\\Admin.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Models\\Tables\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Tables\\Admin.cs",
+              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Models\\Tables\\Admin.cs",
+              "RelativeToolTip": "Models\\Tables\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T02:32:53.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ValidaLogin.cs",
-              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Modelos\\ValidaLogin.cs",
-              "RelativeDocumentMoniker": "Modelos\\ValidaLogin.cs",
-              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Modelos\\ValidaLogin.cs",
-              "RelativeToolTip": "Modelos\\ValidaLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T02:14:50.268Z",
+              "WhenOpened": "2025-03-23T13:51:25.856Z",
               "EditorCaption": ""
             }
           ]

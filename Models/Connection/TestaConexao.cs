@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using IncentivoPro.Modelos.Connection;
-using IncentivoPro.Modelos.Tables;
+using IncentivoPro.Models.Connection;
+using IncentivoPro.Models.Tables;
 
 
-namespace IncentivoPro.Modelos.Connection
+namespace IncentivoPro.Models.Connection
 {
     public class TestaConexao
     {

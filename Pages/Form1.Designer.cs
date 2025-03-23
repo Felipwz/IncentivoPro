@@ -30,7 +30,7 @@
         {
             panel1 = new Panel();
             btnRegistrat = new Button();
-            txtLogin = new TextBox();
+            txtUsuario = new TextBox();
             txtSenha = new TextBox();
             label1 = new Label();
             checkViewPassWord = new CheckBox();
@@ -65,13 +65,13 @@
             btnRegistrat.Text = "Registrar";
             btnRegistrat.UseVisualStyleBackColor = false;
             // 
-            // txtLogin
+            // txtUsuario
             // 
-            txtLogin.Location = new Point(280, 109);
-            txtLogin.Multiline = true;
-            txtLogin.Name = "txtLogin";
-            txtLogin.Size = new Size(273, 31);
-            txtLogin.TabIndex = 1;
+            txtUsuario.Location = new Point(280, 109);
+            txtUsuario.Multiline = true;
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new Size(273, 31);
+            txtUsuario.TabIndex = 1;
             // 
             // txtSenha
             // 
@@ -162,7 +162,7 @@
             Controls.Add(checkViewPassWord);
             Controls.Add(label1);
             Controls.Add(txtSenha);
-            Controls.Add(txtLogin);
+            Controls.Add(txtUsuario);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
@@ -176,7 +176,7 @@
         #endregion
 
         private Panel panel1;
-        private TextBox txtLogin;
+        private TextBox txtUsuario;
         private TextBox txtSenha;
         private Label label1;
         private CheckBox checkViewPassWord;

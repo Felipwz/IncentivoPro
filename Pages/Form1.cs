@@ -1,8 +1,8 @@
 using System;
 using System.Diagnostics.Eventing.Reader;
 using System.Windows.Forms;
-using IncentivoPro.Modelos;
-using IncentivoPro.Modelos.Connection;
+using IncentivoPro.Models;
+using IncentivoPro.Models.Connection;
 using static System.Windows.Forms.DataFormats;
 
 
@@ -25,24 +25,28 @@ namespace IncentivoPro
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (txtLogin.Text == "" || txtSenha.Text == "")
+            var context = new AppDbContext();
+            var validador = new ValidaLogin(context);
+
+
+            bool loginValido = validador.ValidarLogin(txtUsuario.Text, txtSenha.Text);
+
+            if (txtSenha.Text == "" || txtUsuario.Text == "")
             {
                 MessageBox.Show("É necessário preencher todos os campos");
             }
-            else
+            else if (loginValido)
             {
-                using (var context = new AppDbContext()) 
-                {
-
-                    try
-                    {
-
-                    }
-                    catch { 
-                    }
-                
-                }
+                MessageBox.Show("Login realizado com sucesso");
             }
+            else {
+                MessageBox.Show($"Erro ao validar o login");
+            }
+
+
+
+            
+
         }
 
         private void btnFechar_Click(object sender, EventArgs e)

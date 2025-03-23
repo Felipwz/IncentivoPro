@@ -8,37 +8,66 @@ namespace IncentivoPro.Pages
 {
     public class MensagemTemporaria : Form
     {
-        private const int FADE_DURATION = 300; // Reduzindo a duração do fade para ser mais rápido.
+        private const int FADE_DURATION = 300;
 
-        public MensagemTemporaria(string mensagem, int duracao)
+        public MensagemTemporaria(string mensagem, int duracao, string tipoDeMensagem)
         {
-            Label label = new Label
+            
+            Panel panel = new Panel
             {
-                Text = mensagem,
+                Padding = new Padding(10), 
                 AutoSize = true,
-                Font = new Font("Segoe UI", 18, FontStyle.Regular), // Fonte mais moderna.
-                ForeColor = Color.FromArgb(255, 255, 255), 
-                TextAlign = ContentAlignment.MiddleCenter, // Centralizar o texto.
+                AutoSizeMode = AutoSizeMode.GrowAndShrink,
             };
 
-            this.Controls.Add(label);
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.StartPosition = FormStartPosition.CenterScreen;
-            this.BackColor = Color.FromArgb(46, 14, 55); // Cor de fundo mais clara e suave.
-            this.Opacity = 0;
-            this.Padding = new Padding(20); // Adiciona um pequeno padding para margens.
+            
+            if (tipoDeMensagem == "aviso")
+            {
+                panel.BackColor = Color.FromArgb(161, 160, 50);
+            }
+            else if (tipoDeMensagem == "sucesso")
+            {
+                panel.BackColor = Color.FromArgb(39, 12, 46);
+            }
+            else
+            {
+                panel.BackColor = Color.FromArgb(247, 13, 12);
+            }
+
+            
+            Label label = new Label
+            {
+                ForeColor = Color.FromArgb(255, 255, 255),
+                Text = mensagem,
+                AutoSize = true,
+                Font = new Font("Segoe UI", 18, FontStyle.Regular),
+                TextAlign = ContentAlignment.MiddleCenter,
+            };
+
+            
+            panel.Controls.Add(label);
+
+            
+            this.Controls.Add(panel);
+
             this.AutoSize = true;
             this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            label.Location = new Point(this.ClientSize.Width / 2 - label.Width / 2, this.ClientSize.Height / 2 - label.Height / 2);
 
-            this.Paint += MensagemTemporaria_Paint; //Adiciona o evento de pintura.
+            
+            label.Location = new Point(panel.ClientSize.Width / 2 - label.Width / 2, panel.ClientSize.Height / 2 - label.Height / 2);
+
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.Opacity = 0;
+
+            this.Paint += MensagemTemporaria_Paint;
             MostrarMensagem(duracao);
         }
 
         private void MensagemTemporaria_Paint(object sender, PaintEventArgs e)
         {
             GraphicsPath path = new GraphicsPath();
-            int radius = 10; // Raio para as bordas arredondadas.
+            int radius = 10;
             path.AddArc(0, 0, radius, radius, 180, 90);
             path.AddArc(this.Width - radius, 0, radius, radius, 270, 90);
             path.AddArc(this.Width - radius, this.Height - radius, radius, radius, 0, 90);
@@ -61,7 +90,7 @@ namespace IncentivoPro.Pages
         {
             while (this.Opacity < 1)
             {
-                this.Opacity += 0.1; // Aumentando a velocidade do fade.
+                this.Opacity += 0.1;
                 await Task.Delay(FADE_DURATION / 10);
             }
         }
@@ -70,7 +99,7 @@ namespace IncentivoPro.Pages
         {
             while (this.Opacity > 0)
             {
-                this.Opacity -= 0.1; // Aumentando a velocidade do fade.
+                this.Opacity -= 0.1;
                 await Task.Delay(FADE_DURATION / 10);
             }
         }

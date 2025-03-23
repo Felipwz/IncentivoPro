@@ -29,42 +29,24 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            btnRegistra = new Button();
             txtUsuario = new TextBox();
             txtSenha = new TextBox();
             label1 = new Label();
-            checkViewPassWord = new CheckBox();
+            checkBoxMostrarSenha = new CheckBox();
             btnLogin = new Button();
             label2 = new Label();
             label3 = new Label();
             btnFechar = new Label();
             label4 = new Label();
-            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(104, 32, 123);
-            panel1.Controls.Add(btnRegistra);
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(262, 355);
+            panel1.Size = new Size(262, 353);
             panel1.TabIndex = 0;
-            // 
-            // btnRegistra
-            // 
-            btnRegistra.BackColor = Color.FromArgb(39, 12, 46);
-            btnRegistra.Cursor = Cursors.Hand;
-            btnRegistra.FlatAppearance.BorderSize = 0;
-            btnRegistra.FlatStyle = FlatStyle.Flat;
-            btnRegistra.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegistra.ForeColor = Color.White;
-            btnRegistra.Location = new Point(55, 308);
-            btnRegistra.Name = "btnRegistra";
-            btnRegistra.Size = new Size(155, 32);
-            btnRegistra.TabIndex = 8;
-            btnRegistra.Text = "Registrar";
-            btnRegistra.UseVisualStyleBackColor = false;
             // 
             // txtUsuario
             // 
@@ -75,8 +57,9 @@
             // 
             // txtSenha
             // 
-            txtSenha.Location = new Point(280, 193);
+            txtSenha.Location = new Point(279, 193);
             txtSenha.Name = "txtSenha";
+            txtSenha.PasswordChar = '*';
             txtSenha.Size = new Size(273, 23);
             txtSenha.TabIndex = 2;
             // 
@@ -89,15 +72,16 @@
             label1.Size = new Size(0, 40);
             label1.TabIndex = 3;
             // 
-            // checkViewPassWord
+            // checkBoxMostrarSenha
             // 
-            checkViewPassWord.AutoSize = true;
-            checkViewPassWord.Location = new Point(479, 321);
-            checkViewPassWord.Name = "checkViewPassWord";
-            checkViewPassWord.Size = new Size(102, 19);
-            checkViewPassWord.TabIndex = 4;
-            checkViewPassWord.Text = "Mostrar Senha";
-            checkViewPassWord.UseVisualStyleBackColor = true;
+            checkBoxMostrarSenha.AutoSize = true;
+            checkBoxMostrarSenha.Location = new Point(451, 222);
+            checkBoxMostrarSenha.Name = "checkBoxMostrarSenha";
+            checkBoxMostrarSenha.Size = new Size(102, 19);
+            checkBoxMostrarSenha.TabIndex = 4;
+            checkBoxMostrarSenha.Text = "Mostrar Senha";
+            checkBoxMostrarSenha.UseVisualStyleBackColor = true;
+            checkBoxMostrarSenha.CheckedChanged += checkViewPassWord_CheckedChanged;
             // 
             // btnLogin
             // 
@@ -168,7 +152,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(btnLogin);
-            Controls.Add(checkViewPassWord);
+            Controls.Add(checkBoxMostrarSenha);
             Controls.Add(label1);
             Controls.Add(txtSenha);
             Controls.Add(txtUsuario);
@@ -178,7 +162,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Form1_Load;
-            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -189,11 +172,10 @@
         private TextBox txtUsuario;
         private TextBox txtSenha;
         private Label label1;
-        private CheckBox checkViewPassWord;
+        private CheckBox checkBoxMostrarSenha;
         private Button btnLogin;
         private Label label2;
         private Label label3;
-        private Button btnRegistra;
         private Label btnFechar;
         private Label label4;
     }

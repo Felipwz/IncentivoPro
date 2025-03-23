@@ -18,7 +18,7 @@ namespace IncentivoPro
 
 
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private async void btnLogin_Click(object sender, EventArgs e)
         {
             var context = new AppDbContext();
             var validador = new ValidaLogin(context);
@@ -28,25 +28,32 @@ namespace IncentivoPro
             bool loginValido = validador.ValidarLogin(txtUsuario.Text, txtSenha.Text);
 
 
-          
+
 
             if (txtSenha.Text == "" || txtUsuario.Text == "")
             {
-                MensagemTemporaria mensagem = new MensagemTemporaria("É necessário preencher todos os campos", 2000); // 2000 ms (2 segundos)
+                MensagemTemporaria mensagem = new MensagemTemporaria("É necessário preencher todos os campos", 2000, "aviso"); // 2000 ms (2 segundos)
+                mensagem.ForeColor = Color.FromArgb(233, 214, 0);
                 mensagem.Show();
+
             }
             else if (loginValido)
             {
-                MensagemTemporaria mensagem = new MensagemTemporaria("Login realizado!", 2000); // 2000 ms (2 segundos)
+                MensagemTemporaria mensagem = new MensagemTemporaria("Login realizado!", 2000, "sucesso"); // 2000 ms (2 segundos)
                 mensagem.Show();
+                await Task.Delay(2000);
                 this.Close();
+
+
 
 
             }
             else
             {
-                MensagemTemporaria mensagem = new MensagemTemporaria("Algum erro ocorreu, verifique os campos", 2000); // 2000 ms (2 segundos)
+                MensagemTemporaria mensagem = new MensagemTemporaria("Algum erro ocorreu, verifique os campos", 2000, "erro"); // 2000 ms (2 segundos)
+                mensagem.ForeColor = Color.FromArgb(194, 0, 0);
                 mensagem.Show();
+
             }
 
 
@@ -60,6 +67,20 @@ namespace IncentivoPro
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkViewPassWord_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxMostrarSenha.Checked)
+            {
+                
+                txtSenha.PasswordChar = '\0';
+            }
+            else
+            {
+          
+                txtSenha.PasswordChar = '*';
+            }
         }
     }
 }

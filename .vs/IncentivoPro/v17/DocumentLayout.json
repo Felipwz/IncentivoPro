@@ -7,20 +7,8 @@
       "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:pages\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\pages\\mensagemlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:pages\\mensagemlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\pages\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:pages\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\pages\\mensagemlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:pages\\mensagemlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|c:\\users\\luizf\\projetos\\c#\\incentivopro\\models\\validalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{552B46A0-664D-4BFD-9A9C-548DB0586890}|IncentivoPro.csproj|solutionrelative:models\\validalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,60 +17,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 10,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 15,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\Form1.cs",
-              "RelativeDocumentMoniker": "Pages\\Form1.cs",
-              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Pages\\Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T20:08:31.107Z",
-              "IsPinned": true,
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MensagemLogin.cs",
-              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\MensagemLogin.cs",
-              "RelativeDocumentMoniker": "Pages\\MensagemLogin.cs",
-              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\MensagemLogin.cs",
-              "RelativeToolTip": "Pages\\MensagemLogin.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T20:09:43.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MensagemLogin.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\MensagemLogin.cs",
-              "RelativeDocumentMoniker": "Pages\\MensagemLogin.cs",
-              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\MensagemLogin.cs [Projeto]",
-              "RelativeToolTip": "Pages\\MensagemLogin.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T20:09:41.237Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ValidaLogin.cs",
-              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Models\\ValidaLogin.cs",
-              "RelativeDocumentMoniker": "Models\\ValidaLogin.cs",
-              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Models\\ValidaLogin.cs",
-              "RelativeToolTip": "Models\\ValidaLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T20:08:56.892Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -91,10 +28,32 @@
               "RelativeDocumentMoniker": "Pages\\Form1.cs",
               "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\Form1.cs",
               "RelativeToolTip": "Pages\\Form1.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwCkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwFAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T20:02:50.231Z",
+              "WhenOpened": "2025-03-23T23:05:06.886Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\Form1.cs",
+              "RelativeDocumentMoniker": "Pages\\Form1.cs",
+              "ToolTip": "C:\\Users\\luizf\\Projetos\\C#\\IncentivoPro\\Pages\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Pages\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T23:04:55.211Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 5,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

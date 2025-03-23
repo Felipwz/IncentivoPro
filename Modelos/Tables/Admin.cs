@@ -9,8 +9,39 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace IncentivoPro.Modelos.Tables
 {
 
-    [Table("tb01_alunos")]
-    public class Aluno
+    [Table("using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace IncentivoPro.Modelos.Tables
+{
+
+    [Table("tb03_admin")]
+    public class Admin
+    {
+        [Key]
+        [Column("id")]
+        public int Id { get; set; }
+
+        [Column("login")]
+        public string Login { get; set; }
+
+        [Column("senha")]
+        public string Senha { get; set; }
+
+    
+
+    }
+
+
+}
+
+")]
+    public class Admin
     {
         [Key]
         [Column("id")]

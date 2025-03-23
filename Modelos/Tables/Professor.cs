@@ -9,8 +9,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace IncentivoPro.Modelos.Tables
 {
 
-    [Table("tb01_alunos")]
-    public class Aluno
+    [Table("tb02_professores")]
+    public class Professor
     {
         [Key]
         [Column("id")]
@@ -19,20 +19,17 @@ namespace IncentivoPro.Modelos.Tables
         [Column("nome")]
         public string Nome { get; set; }
 
-        [Column("idade")]
-        public int Idade { get; set; }
+        [Column("salas")]
+        public string Salas { get; set; }
 
-        [Column("sala")]
-        public string Sala { get; set; }
+        [Column("senha")]
+        public string SenhaProfessor { get; set; }
 
-        [Column("Pontos")]
-        public int Pontos { get; set; }
+        [Column("login")]
+        public string LoginProfessor { get; set; }
 
-        [Column("premios_ganhos")]
-        public string PremiosGanhos { get; set; }
 
     }
 
 
 }
-

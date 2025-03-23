@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            btnRegistrat = new Button();
+            btnRegistra = new Button();
             txtUsuario = new TextBox();
             txtSenha = new TextBox();
             label1 = new Label();
@@ -38,47 +38,46 @@
             label2 = new Label();
             label3 = new Label();
             btnFechar = new Label();
+            label4 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(104, 32, 123);
-            panel1.Controls.Add(btnRegistrat);
+            panel1.Controls.Add(btnRegistra);
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(262, 355);
             panel1.TabIndex = 0;
             // 
-            // btnRegistrat
+            // btnRegistra
             // 
-            btnRegistrat.BackColor = Color.FromArgb(39, 12, 46);
-            btnRegistrat.Cursor = Cursors.Hand;
-            btnRegistrat.FlatAppearance.BorderSize = 0;
-            btnRegistrat.FlatStyle = FlatStyle.Flat;
-            btnRegistrat.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegistrat.ForeColor = Color.White;
-            btnRegistrat.Location = new Point(55, 308);
-            btnRegistrat.Name = "btnRegistrat";
-            btnRegistrat.Size = new Size(155, 32);
-            btnRegistrat.TabIndex = 8;
-            btnRegistrat.Text = "Registrar";
-            btnRegistrat.UseVisualStyleBackColor = false;
+            btnRegistra.BackColor = Color.FromArgb(39, 12, 46);
+            btnRegistra.Cursor = Cursors.Hand;
+            btnRegistra.FlatAppearance.BorderSize = 0;
+            btnRegistra.FlatStyle = FlatStyle.Flat;
+            btnRegistra.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRegistra.ForeColor = Color.White;
+            btnRegistra.Location = new Point(55, 308);
+            btnRegistra.Name = "btnRegistra";
+            btnRegistra.Size = new Size(155, 32);
+            btnRegistra.TabIndex = 8;
+            btnRegistra.Text = "Registrar";
+            btnRegistra.UseVisualStyleBackColor = false;
             // 
             // txtUsuario
             // 
             txtUsuario.Location = new Point(280, 109);
-            txtUsuario.Multiline = true;
             txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(273, 31);
+            txtUsuario.Size = new Size(273, 23);
             txtUsuario.TabIndex = 1;
             // 
             // txtSenha
             // 
             txtSenha.Location = new Point(280, 193);
-            txtSenha.Multiline = true;
             txtSenha.Name = "txtSenha";
-            txtSenha.Size = new Size(273, 30);
+            txtSenha.Size = new Size(273, 23);
             txtSenha.TabIndex = 2;
             // 
             // label1
@@ -87,14 +86,13 @@
             label1.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(268, 22);
             label1.Name = "label1";
-            label1.Size = new Size(200, 40);
+            label1.Size = new Size(0, 40);
             label1.TabIndex = 3;
-            label1.Text = "Login Account";
             // 
             // checkViewPassWord
             // 
             checkViewPassWord.AutoSize = true;
-            checkViewPassWord.Location = new Point(451, 229);
+            checkViewPassWord.Location = new Point(479, 321);
             checkViewPassWord.Name = "checkViewPassWord";
             checkViewPassWord.Size = new Size(102, 19);
             checkViewPassWord.TabIndex = 4;
@@ -149,12 +147,23 @@
             btnFechar.Text = "X";
             btnFechar.Click += btnFechar_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(280, 22);
+            label4.Name = "label4";
+            label4.Size = new Size(200, 40);
+            label4.TabIndex = 9;
+            label4.Text = "Login Account";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
             ClientSize = new Size(593, 352);
+            Controls.Add(label4);
             Controls.Add(btnFechar);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -168,6 +177,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            Load += Form1_Load;
             panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -183,7 +193,8 @@
         private Button btnLogin;
         private Label label2;
         private Label label3;
-        private Button btnRegistrat;
+        private Button btnRegistra;
         private Label btnFechar;
+        private Label label4;
     }
 }

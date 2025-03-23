@@ -3,6 +3,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Windows.Forms;
 using IncentivoPro.Models;
 using IncentivoPro.Models.Connection;
+using IncentivoPro.Pages;
 using static System.Windows.Forms.DataFormats;
 
 
@@ -15,13 +16,7 @@ namespace IncentivoPro
             InitializeComponent();
         }
 
-        private void btnTeste_Click(object sender, EventArgs e)
-        {
-            TestaConexao testaConexao = new TestaConexao();
-            testaConexao.ConexaoTeste();
 
-
-        }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -29,29 +24,42 @@ namespace IncentivoPro
             var validador = new ValidaLogin(context);
 
 
+
             bool loginValido = validador.ValidarLogin(txtUsuario.Text, txtSenha.Text);
+
+
+          
 
             if (txtSenha.Text == "" || txtUsuario.Text == "")
             {
-                MessageBox.Show("É necessário preencher todos os campos");
+                MensagemTemporaria mensagem = new MensagemTemporaria("É necessário preencher todos os campos", 2000); // 2000 ms (2 segundos)
+                mensagem.Show();
             }
             else if (loginValido)
             {
-                MessageBox.Show("Login realizado com sucesso");
+                MensagemTemporaria mensagem = new MensagemTemporaria("Login realizado!", 2000); // 2000 ms (2 segundos)
+                mensagem.Show();
+                this.Close();
+
+
             }
-            else {
-                MessageBox.Show($"Erro ao validar o login");
+            else
+            {
+                MensagemTemporaria mensagem = new MensagemTemporaria("Algum erro ocorreu, verifique os campos", 2000); // 2000 ms (2 segundos)
+                mensagem.Show();
             }
 
-
-
-            
 
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

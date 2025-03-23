@@ -22,7 +22,7 @@ O objetivo principal do **IncentivoPro** é fornecer uma plataforma prática e i
 - **C# (.NET 6 ou superior):** Linguagem principal do projeto.
 - **Windows Forms:** Interface gráfica do sistema.
 - **Entity Framework Core:** ORM para facilitar o mapeamento e manipulação dos dados.
-- **PostgreSQL (Supabase):** Banco de dados utilizado para armazenar as informações.
+- **PostgreSQL (Supabase):** Banco de dados na nuvem utilizado para armazenar as informações.
 
 ## 📖 Roadmap
 - **Versão 1.0:** Cadastro de alunos, atribuição de pontos e consulta de saldo.

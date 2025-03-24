@@ -14,7 +14,7 @@ namespace IncentivoPro.Models.Connection
         public DbSet<Admin> Admins { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             {
-                optionsBuilder.UseNpgsql("User Id=postgres.wtdoiengvkbmptiqtdup;Password=felipwz_0204;Server=aws-0-sa-east-1.pooler.supabase.com;Port=5432;Database=postgres");
+                optionsBuilder.UseNpgsql("User Id=postgres.wtdoiengvkbmptiqtdup;Password=[];Server=aws-0-sa-east-1.pooler.supabase.com;Port=5432;Database=postgres");
 
 
 

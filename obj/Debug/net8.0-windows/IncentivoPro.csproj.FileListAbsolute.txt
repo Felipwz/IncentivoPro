@@ -121,3 +121,4 @@ C:\Users\luizf\Projetos\C#\IncentivoPro\obj\Debug\net8.0-windows\refint\Incentiv
 C:\Users\luizf\Projetos\C#\IncentivoPro\obj\Debug\net8.0-windows\IncentivoPro.pdb
 C:\Users\luizf\Projetos\C#\IncentivoPro\obj\Debug\net8.0-windows\IncentivoPro.genruntimeconfig.cache
 C:\Users\luizf\Projetos\C#\IncentivoPro\obj\Debug\net8.0-windows\ref\IncentivoPro.dll
+C:\Users\luizf\Projetos\C#\IncentivoPro\bin\Debug\net8.0-windows\MaterialSkin.dll

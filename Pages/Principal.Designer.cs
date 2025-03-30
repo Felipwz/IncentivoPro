@@ -1,4 +1,7 @@
-﻿namespace IncentivoPro.Pages
+﻿using IncentivoPro.Models.Connection;
+using IncentivoPro.Models.Tables;
+
+namespace IncentivoPro.Pages
 {
     partial class Principal
     {
@@ -28,31 +31,51 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            panel1 = new Panel();
+            lbNomeUsuario = new Label();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // panel1
             // 
-            button1.Location = new Point(369, 248);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            panel1.BackColor = Color.FromArgb(13, 15, 21);
+            panel1.Controls.Add(lbNomeUsuario);
+            panel1.Location = new Point(0, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(200, 553);
+            panel1.TabIndex = 0;
+            // 
+            // lbNomeUsuario
+            // 
+            lbNomeUsuario.AutoSize = true;
+            lbNomeUsuario.ForeColor = Color.White;
+            lbNomeUsuario.Location = new Point(72, 35);
+            lbNomeUsuario.Name = "lbNomeUsuario";
+            lbNomeUsuario.Size = new Size(32, 15);
+            lbNomeUsuario.TabIndex = 0;
+            lbNomeUsuario.Text = "teste";
             // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            AutoValidate = AutoValidate.EnableAllowFocusChange;
+            BackColor = Color.FromArgb(46, 51, 73);
+            ClientSize = new Size(951, 577);
+            Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Principal";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Principal";
+            WindowState = FormWindowState.Maximized;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Button button1;
+        public Panel panel1;
+        private Label lbNomeUsuario;
     }
 }

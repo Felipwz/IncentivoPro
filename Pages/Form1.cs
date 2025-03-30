@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics.Eventing.Reader;
 using System.Windows.Forms;
-using IncentivoPro.Models;
+using IncentivoPro.Models.Functions;
 using IncentivoPro.Models.Connection;
 using IncentivoPro.Pages;
 using static System.Windows.Forms.DataFormats;
@@ -23,12 +23,7 @@ namespace IncentivoPro
             var context = new AppDbContext();
             var validador = new ValidaLogin(context);
 
-
-
             bool loginValido = validador.ValidarLogin(txtUsuario.Text, txtSenha.Text);
-
-
-
 
             if (txtSenha.Text == "" || txtUsuario.Text == "")
             {
@@ -42,10 +37,9 @@ namespace IncentivoPro
                 MensagemTemporaria mensagem = new MensagemTemporaria("Login realizado!", 2000, "sucesso"); // 2000 ms (2 segundos)
                 mensagem.Show();
                 await Task.Delay(2000);
-                this.Close();
-
-
-
+                Principal proximaTela = new Principal();
+                proximaTela.Show();
+                
 
             }
             else
@@ -69,18 +63,8 @@ namespace IncentivoPro
 
         }
 
-        private void checkViewPassWord_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBoxMostrarSenha.Checked)
-            {
-                
-                txtSenha.PasswordChar = '\0';
-            }
-            else
-            {
-          
-                txtSenha.PasswordChar = '*';
-            }
-        }
+
+
+
     }
 }
